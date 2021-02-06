@@ -4,6 +4,8 @@
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
 
+---
+
 This project is meant to demonstrate an Apex Trigger Framework which is built with the following goals in mind:
 
 1. Single Trigger per sObject
@@ -67,11 +69,11 @@ With this multiplicity of Apex classes, it would be wise to follow a naming conv
 {
   "packageDirectories": [
     {
-      "path": "application/base",
+      "path": "trigger-actions-framework",
       "default": true
     },
     {
-      "path": "application/opportunity-automation",
+      "path": "opportunity-automation",
       "default": false
     }
   ],

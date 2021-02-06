@@ -1,11 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "application/base",
-      "default": false
-    },
-    {
-      "path": "application/opportunity-automation",
+      "path": "trigger-actions-framework",
       "default": true
     }
   ],
